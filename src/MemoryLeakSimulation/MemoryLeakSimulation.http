@@ -1,0 +1,6 @@
+@MemoryLeakSimulation_HostAddress = http://localhost:5232
+
+GET {{MemoryLeakSimulation_HostAddress}}/generate-report/
+Accept: application/json
+
+###
